@@ -54,7 +54,6 @@ if (!empty($_POST))
             {
                 echo "<p>Please select a flavor of Cupcake</p>";
                 $isValid = false;
-
             }
         }
         $flavorString = implode(", ", $cupcakeFlavor);
