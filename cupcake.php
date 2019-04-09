@@ -4,8 +4,8 @@
  * name: David Nagy
  * Date: april 5th 2019
  * cupcake.php
- *
  * Ordering cupcake page
+ *
  *
  *
  */
@@ -59,7 +59,7 @@ if (!empty($_POST))
         $flavorString = implode(", ", $cupcakeFlavor);
     }
     else
-    {
+        {// selecting flavor
         echo "<p>Please select a flavor of Cupcake</p>";
         $isValid = false;
     }
